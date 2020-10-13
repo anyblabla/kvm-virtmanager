@@ -28,6 +28,7 @@ apt install -y -o 'apt::install-recommends=true' \
 echo "KVM ajouts groupes..."
 usermod -G kvm -a $SUDO_USER
 usermod -G libvirt -a $SUDO_USER
+usermod -G libvirt-qemu -a $SUDO_USER
 #
 echo "Nettoyage..."
 apt autoremove
