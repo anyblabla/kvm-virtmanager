@@ -4,7 +4,7 @@
 #   Amaury Libert <amaury-libert@hotmail.com> de Blabla Linux <https://blablalinux.be>
 #
 # Description:
-#   Script d'installations de l'hyperviseur KVM et du gestionnaire de machines virtuelles Virt Manager et Gnome Boxes pour Linux Mint 20 (Cinnamon/Mate/xfce).
+#   Script d'installations de l'hyperviseur KVM, du gestionnaire de machines virtuelles Virt Manager, de Gnome Boxes et du protocole de communication sécurisé SSH pour Linux Mint 20 (Cinnamon/Mate/xfce).
 #
 # Préambule Légal:
 # 	Ce script est un logiciel libre.
@@ -23,12 +23,13 @@ apt update
 #
 echo "Installations de qemu, qemu-kvm, libvirt0, virt-manager, libguestfs-tools, ssh-askpass, bridge-utils, gnome-boxes..."
 apt install -y -o 'apt::install-recommends=true' \
-  qemu qemu-kvm libvirt0 virt-manager libguestfs-tools ssh-askpass bridge-utils gnome-boxes
+  qemu qemu-kvm libvirt0 virt-manager libguestfs-tools ssh-askpass bridge-utils gnome-boxes ssh-askpass-gnome openssh-server
 #
 echo "KVM ajouts groupes..."
 usermod -G kvm -a $SUDO_USER
 usermod -G libvirt -a $SUDO_USER
 usermod -G libvirt-qemu -a $SUDO_USER
+usermod -G libvirt-dnsmasq -a $SUDO_USER
 #
 echo "Nettoyage..."
 apt autoremove
