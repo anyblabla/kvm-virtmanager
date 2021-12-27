@@ -1,7 +1,7 @@
 # kvm-virtmanager
-Script for KVM hypervisor and Virt Manager and Gnome Boxes virtual machine manager installations for Linux Mint 20 (Cinnamon / Mate / xfce).
+KVM hypervisor and virtual machine manager installation script Virt Manager and Gnome Boxes for Linux Mint 20, for Linux Ubuntu 20.04 and for Linux Debian 10.
 
-Script d'installations de l'hyperviseur KVM et du gestionnaire de machines virtuelles Virt Manager et Gnome Boxes pour Linux Mint 20 (Cinnamon/Mate/xfce).
+Script d'installations de l'hyperviseur KVM et du gestionnaire de machines virtuelles Virt Manager et Gnome Boxes pour Linux Mint 20, pour Linux Ubuntu 20.04 et pour Linux Debian 10.
 
 # Installation
 chmod +x kvm-virtmanager.sh
