@@ -4,7 +4,7 @@
 #   Amaury Libert <amaury-libert@hotmail.com> de Blabla Linux <https://blablalinux.be>
 #
 # Description:
-#   Script d'installations de l'hyperviseur KVM, du gestionnaire de machines virtuelles Virt Manager, de Gnome Boxes et du protocole de communication sécurisé SSH pour Linux Mint 20 (Cinnamon/Mate/xfce).
+#   Script d'installations de l'hyperviseur KVM, du gestionnaire de machines virtuelles Virt Manager, de Gnome Boxes et du protocole de communication sécurisé SSH pour Linux Mint 20, pour Linux Ubuntu 20.04 et pour Linux Debian 10/11.
 #
 # Préambule Légal:
 # 	Ce script est un logiciel libre.
