@@ -21,9 +21,9 @@ clear
 echo "Rafraîchissement dépôts..."
 apt update
 #
-echo "Installations de qemu, qemu-kvm, libvirt0, virt-manager, libguestfs-tools, ovmf, ssh-askpass, bridge-utils, gnome-boxes, ssh-askpass-gnome, openssh-server..."
+echo "Installations de qemu, qemu-kvm, libvirt0, virt-manager, libguestfs-tools, ovmf, ssh-askpass, ssh-askpass-gnome, bridge-utils, gnome-boxes, openssh-server..."
 apt install -y -o 'apt::install-recommends=true' \
-  qemu qemu-kvm libvirt0 virt-manager libguestfs-tools ovmf ssh-askpass bridge-utils gnome-boxes ssh-askpass-gnome openssh-server
+  qemu qemu-kvm libvirt0 virt-manager libguestfs-tools ovmf ssh-askpass ssh-askpass-gnome bridge-utils gnome-boxes openssh-server
 #
 echo "KVM ajouts groupes..."
 usermod -G kvm -a $SUDO_USER
