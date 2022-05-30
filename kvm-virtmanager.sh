@@ -21,7 +21,7 @@ clear
 echo "Rafraîchissement dépôts..."
 apt update
 #
-echo "Installations de qemu, qemu-kvm, libvirt0, virt-manager, puthon3-guestfs, libguestfs-tools, ovmf, ssh-askpass, ssh-askpass-gnome, bridge-utils, gnome-boxes, openssh-server..."
+echo "Installations de qemu, qemu-kvm, libvirt0, virt-manager, python3-guestfs, libguestfs-tools, ovmf, ssh-askpass, ssh-askpass-gnome, bridge-utils, gnome-boxes, openssh-server..."
 apt install -y -o 'apt::install-recommends=true' \
   qemu qemu-kvm libvirt0 virt-manager python3-guestfs libguestfs-tools ovmf ssh-askpass ssh-askpass-gnome bridge-utils gnome-boxes openssh-server
 #
