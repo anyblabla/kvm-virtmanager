@@ -5,6 +5,7 @@
 #
 # Description:
 #   Script d'installations de l'hyperviseur KVM, du gestionnaire de machines virtuelles Virt Manager, de Gnome Boxes et du protocole de communication sécurisé SSH pour Linux Mint 21, pour Linux Ubuntu 22.04 et pour Linux Debian 10/11.
+#   Installation script for KVM hypervisor and virtual machine manager Virt Manager and Gnome Boxes for Linux Mint 20+ and 21, for Linux Ubuntu 20.04+ and 22.04, and for Linux Debian 10/11.
 #
 # Préambule Légal:
 # 	Ce script est un logiciel libre.
