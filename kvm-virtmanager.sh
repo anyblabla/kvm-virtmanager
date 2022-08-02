@@ -14,7 +14,7 @@
 # 	Ce script est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE; sans même la garantie implicite de QUALITÉ MARCHANDE ou d'ADÉQUATION À UN USAGE PARTICULIER.
 # 	Voir la licence publique générale GNU pour plus de détails.
 #
-# 	Licence publique générale GNU : <https://www.gnu.org/licenses/gpl-3.0.txt>
+# 	Licence publique générale GNU : <https://www.gnu.org/licenses/gpl-2.0.txt>
 #
 echo "Effacement écran..."
 clear
