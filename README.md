@@ -8,6 +8,6 @@ chmod +x kvm-virtmanager.sh
 
 sudo ./kvm-virtmanager.sh
 
-# Demonstration/Démonstration
+# Demonstration / Démonstration
 
 https://youtu.be/MXVjQyoDmyw
