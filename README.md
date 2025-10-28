@@ -76,4 +76,4 @@ Pour une démonstration de l'exécution du script et de la vérification de l'in
 
 ### 📝 **Licence**
 
-Ce projet est sous licence **[À compléter - Ex: MIT, GPL, etc.]**.
+Ce projet est sous licence GNU GPL (v2.0).
