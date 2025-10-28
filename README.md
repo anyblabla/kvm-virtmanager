@@ -1,10 +1,10 @@
 # virtualization `kvm-virtmanager.sh`
 
-## Installation de l'Hyperviseur KVM, Virt-Manager et GNOME Boxes
+## Installation de l'hyperviseur KVM, Virt-Manager et GNOME Boxes
 
 -----
 
-### 🇫🇷 Description du Projet
+### 🇫🇷 **Description du projet**
 
 Ce script Bash automatise l'installation de l'hyperviseur **KVM (Kernel-based Virtual Machine)** et de ses outils de gestion graphique associés, transformant votre machine Linux en une plateforme de virtualisation complète et performante.
 
@@ -16,14 +16,14 @@ L'installation inclut :
 
 Ce script garantit également que l'utilisateur est ajouté aux groupes nécessaires (`libvirt`, `kvm`, etc.) pour un fonctionnement immédiat sans nécessiter de configuration manuelle des permissions.
 
-**Large Compatibilité :**
+**Large compatibilité :**
 Le script est conçu pour fonctionner sur une variété de distributions populaires :
 
   * **Linux Mint** 20+ et 21.x
   * **Ubuntu** 20.04+ et 22.04.x
   * **Debian** 10 (Buster) et 11 (Bullseye)
 
-### 🇬🇧 Project Description
+### 🇬🇧 **Project Description**
 
 This Bash script automates the installation of the **KVM (Kernel-based Virtual Machine)** hypervisor and its associated graphical management tools, turning your Linux machine into a powerful and complete virtualization platform.
 
@@ -44,7 +44,7 @@ The script is designed to work across a variety of popular distributions:
 
 -----
 
-### 🛠️ Installation et Utilisation / Installation and Usage
+### 🛠️ **Installation et utilisation / Installation and Usage**
 
 Pour installer KVM et ses interfaces de gestion, exécutez les commandes suivantes dans votre Terminal :
 
@@ -64,7 +64,7 @@ Pour installer KVM et ses interfaces de gestion, exécutez les commandes suivant
 
 -----
 
-### 📺 Démonstration
+### 📺 **Démonstration**
 
 Pour une démonstration de l'exécution du script et de la vérification de l'installation de KVM, Virt-Manager et GNOME Boxes :
 
@@ -74,7 +74,6 @@ Pour une démonstration de l'exécution du script et de la vérification de l'in
 
 -----
 
-### 📝 Licence
+### 📝 **Licence**
 
 Ce projet est sous licence **[À compléter - Ex: MIT, GPL, etc.]**.
-http://googleusercontent.com/youtube_content/9
