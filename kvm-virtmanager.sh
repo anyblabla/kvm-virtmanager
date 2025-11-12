@@ -3,7 +3,7 @@
 # ==============================================================================
 # TITRE: Installation de KVM, Virt-Manager, GNOME Boxes et SSH
 # AUTEUR: Amaury Libert (Base) | Amélioré par l'IA
-# LICENCE: GPLv3
+# LICENCE: GPLv2
 # DESCRIPTION:
 #   Installation automatisée de l'hyperviseur KVM, du gestionnaire de machines
 #   virtuelles (Virt Manager, GNOME Boxes) et de SSH.
