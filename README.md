@@ -1,3 +1,5 @@
+
+
 # virtualization `kvm-virtmanager.sh`
 
 ## Installation de l'hyperviseur KVM, Virt-Manager et GNOME Boxes
@@ -60,7 +62,7 @@ Pour installer KVM et ses interfaces de gestion, exécutez les commandes suivant
     sudo ./kvm-virtmanager.sh
     ```
 
-**IMPORTANT :** Après l'exécution du script, vous devez **redémarrer votre système** pour que les modifications de groupes utilisateurs prennent effet et pour que les services KVM/Libvirt soient complètement actifs.
+**IMPORTANT :** Après l'exécution du script, vous devez **vous déconnecter et vous reconnecter** pour que les modifications de groupes utilisateurs prennent effet.
 
 -----
 
